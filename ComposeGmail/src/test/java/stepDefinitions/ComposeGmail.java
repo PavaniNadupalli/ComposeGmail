@@ -22,7 +22,7 @@ public class ComposeGmail {
 	@Given("login into gmail with valid user")
 	public void login_into_gmail_with_valid_user() throws IOException, InterruptedException {
 	
-		
+		System.out.println("Start");
 	    p = new Properties();
 		FileInputStream fis = new FileInputStream("./data.properties");
         p.load(fis);
